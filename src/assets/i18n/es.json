@@ -1,0 +1,97 @@
+{
+    "assignment":{
+        "edit":"Editar"
+    },
+    "about":{
+        "whoami":"¿Quién soy?",
+        "description":"Me llamo Diego y soy estudiante de 2ºDAM en el C.P.I.F.P. Málaga Tech Park. Soy un apasionado de la tecnología y sobre todo de la informática, e intento plasmarlo en lo que hago.",
+        "purpose-title":"¿Para qué es esta aplicación?",
+        "purpose-description":"Esta aplicación es una app desarrollada en Angular e Ionic para las asignaturas de ADD y HLC. Consiste en un programa de gestión de un campamento ubicado en Málaga provincia, donde el dueño podrá gestionar tanto grupos de niños, como los monitores o qué grupos llevará qué monitor en cada actividad.",
+        "findme-title":"¿Dónde puedes encontrarme?",
+        "findme-description":"Si te ha gustado mi trabajo, puedes encontrarme en las siguientes plataformas"
+    },
+    "groups":{
+        "title":"Grupos de niños",
+        "card-title":"Este es el grupo de niños",
+        "card-children-number":"Número de niños que tiene el grupo",
+        "card-emergency-number":"Teléfono en caso de emergencia",
+        "add":"Añade un nuevo grupo"   
+    },
+    "instructor":{
+        "add":"Añade un nuevo instructor",
+        "card-title":"Este es el instructor",
+        "phone-number":"Con número de teléfono"
+    },
+    "modal":{
+        "close":"Cerrar",
+        "group":{
+            "title":"Datos del grupo",
+            "img":"Imagen del grupo",
+            "name":"Nombre del grupo",
+            "emergency-number":"Número de emergencia",
+            "children-number":"Número de niños"
+        },
+        "activities":{
+            "title":"Datos de la actividad",
+            "img":"Imagen de la actividad",
+            "location":"Localidad de la actividad",
+            "name":"Nombre de la actividad",
+            "lat":"Latitud",
+            "lng":"Longitud"
+        },
+        "instructor":{
+            "title":"Datos del instructor",
+            "img":"Imagen del instructor",
+            "name":"Nombre del instructor",
+            "surname":"Apellidos del instructor",
+            "number":"Número del instructor"
+        },
+        "placeholder":{
+            "img":"Introduce la url",
+            "group-name":"Introduce el nombre",
+            "emergency-number":"Introduce el número de emergencia",
+            "children-number":"Introduce el número de niños",
+            "camp-leader-name":"Introduce el nombre del instructor",
+            "camp-leader-surname":"Introduce los apellidos del instructor",
+            "camp-leader-number":"Introduce el número del instructor",
+            "location-name":"Introduce la localidad",
+            "activity-name":"Introduce el nombre de la actividad",
+            "lat":"Introduce la latitud",
+            "lng":"Introduce la longitud"
+            
+        }
+    },
+    "activities":{
+        "add":"Añade una nueva actividad",
+        "name-description":"Actividad a realizar",
+        "location-description":"Que se realizará en",
+        "time":"A las"
+    },
+    "assignments":{
+        "add":"Añade una nueva asignación",
+        "activities":{
+            "select":"Selecciona una actividad"
+        },
+        "datetime":{
+            "select":"Seleccione una fecha y hora",
+            "selected":"Seleccionado correctamente",
+            "select-this":"Seleccionar",
+            "cancel":"Cancelar"
+        },
+        "instructor":{
+            "select":"Selecciona un instructor"
+        },
+        "groups":{
+            "select":"Selecciona un grupo",
+            "word":"Grupo"
+        }
+    },
+    "assignments-details":{
+        "title":"Datos de la asignación",
+        "camp-leader":"Monitor encargado",
+        "activity":"Actividad a realizar",
+        "group":"Grupo del que se encargará",
+        "time":"Fecha y hora",
+        "assign":"Asignar"
+    }
+}

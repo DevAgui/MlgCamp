@@ -1,0 +1,97 @@
+{
+    "assignment":{
+        "edit":"Edit"
+    },
+    "about":{
+        "whoami":"Who am I?",
+        "description":"My name is Diego Aguilera and I'm studying now Cross-Platform Application Development in Málaga Tech Park.",
+        "purpose-title":"What is the main purpose of this app?",
+        "purpose-description":"This application is an app developed with Angular and Ionic, for the subjects ADD and HLC. Which consists of manage a summer camp ubicated in Málaga, where the owner will manage the children groups, camp leaders or which camp leader will be responsible of a group in any activity.",
+        "findme-title":"You'll find me here",
+        "findme-description":"If you have found this app useful, you can follow my work here"
+
+    },
+    "groups":{
+        "title":"Children Groups",
+        "card-title":"This is the group of children",
+        "card-children-number":"Number of children in this group",
+        "card-emergency-number":"Number phone in case of an emergency",
+        "add":"Add a new group"
+    },
+    "instructor":{
+        "add":"Add a new camp leader",
+        "card-title":"This is the camp leader",
+        "phone-number":"And his/her phone number is"
+    },
+    "modal":{
+        "close":"Close",
+        "group":{
+            "title":"Group information",
+            "img":"Children group image",
+            "name":"Name of the children group",
+            "emergency-number":"Emergency number",
+            "children-number":"Children number"
+        },
+        "instructor":{
+            "title":"Camp leader information",
+            "img":"Camp leader image",
+            "name":"Camp leader name",
+            "surname":"Camp leader surname",
+            "number":"Camp leader number"
+        },
+        "activities":{
+            "title":"Activity information",
+            "img":"Activity image",
+            "location":"Acivity location",
+            "name":"Activity name",
+            "lat":"Latitude",
+            "lng":"Longitude"
+        },
+        "placeholder":{
+            "img":"Introduce your url",
+            "group-name":"Introduce the name",
+            "emergency-number":"Introduce the emergency number",
+            "children-number":"Introduce the number of children",
+            "camp-leader-name":"Introduce the camp leader name",
+            "camp-leader-surname":"Introduce the camp leader surname",
+            "camp-leader-number":"Introduce the phone number",
+            "location-name":"Introduce the ubication",
+            "activity-name":"Introduce the activity name",
+            "lat":"Introduce the latitude",
+            "lng":"Introduce the longitude"
+        }
+    },
+    "activities":{
+        "add":"Add a new activity",
+        "name-description":"To do activity",
+        "location-description":"Located in",
+        "time":"At"
+    },
+    "assignments":{
+        "add":"Add a new assignment",
+        "activities":{
+            "select":"Select an activity"
+        },
+        "datetime":{
+            "select":"Select the date and the hour",
+            "selected":"Succesfully selected",
+            "select-this":"Select",
+            "cancel":"Cancel"
+        },
+        "instructor":{
+            "select":"Select a camp leader"
+        },
+        "groups":{
+            "select":"Select a group",
+            "word":"Group"
+        }
+    },
+    "assignments-details":{
+        "title":"Assignment information",
+        "camp-leader":"Camp leader responsible",
+        "activity":"Activity to be done",
+        "group":"Group to take care of",
+        "time":"Date and hour",
+        "assign":"Assign"
+    }
+}

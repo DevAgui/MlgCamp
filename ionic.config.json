@@ -1,0 +1,7 @@
+{
+  "name": "MlgCamp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

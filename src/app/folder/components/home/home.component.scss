@@ -1,0 +1,23 @@
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+    #main-image{
+        margin: 0%;
+        padding: 0%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:contain;
+
+    }
+    
+    .no-scroll{
+        overflow:hidden;
+    }
+
+    ion-card{
+        position: relative;
+        text-align: center;
+    }
+

@@ -1,0 +1,59 @@
+<ion-accordion-group>
+  <ion-accordion value="first">
+    <ion-item slot="header" color="light">
+      <ion-icon color="tertiary" class="ion-padding-end" name="person"></ion-icon>
+      <ion-label>{{'about.whoami' | translate}}</ion-label>
+    </ion-item>
+    <ion-card class="ion-padding" slot="content">
+      <ion-card-content>
+        <ion-grid>
+          <ion-row>
+            <ion-col></ion-col>
+            <ion-col sizeMd="3">
+              <ion-img src="../../../../assets/img/me.jpg"></ion-img>
+            </ion-col>
+            <ion-col></ion-col>
+          </ion-row>
+            <ion-row>
+            <ion-col>
+              <p>{{'about.description' | translate}}</p>
+            </ion-col>
+          </ion-row>
+
+        </ion-grid>
+      </ion-card-content>
+    </ion-card>
+  </ion-accordion>
+  <ion-accordion value="second">
+    <ion-item slot="header" color="light">
+      <ion-icon color="tertiary" class="ion-padding-end" name="help"></ion-icon>
+      <ion-label>{{'about.purpose-title' | translate}}</ion-label>
+    </ion-item>
+    <ion-card class="ion-padding" slot="content">
+      <ion-card-content>
+        <p>{{'about.purpose-description' | translate}}</p>
+      </ion-card-content>
+    </ion-card>
+  </ion-accordion>
+  <ion-accordion value="third">
+    <ion-item slot="header" color="light">
+      <ion-icon color="tertiary" class="ion-padding-end" name="search"></ion-icon>
+      <ion-label>{{'about.findme-title' | translate}}</ion-label>
+    </ion-item>
+    <ion-card class="ion-padding" slot="content">
+      <ion-card-content>
+        <p>{{'about.findme-description' | translate}}:</p>
+        <br>
+        <ion-button [ngStyle]="{'color':'tertiary'}" href="https://twitter.com/DevAgui">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </ion-button>
+        <ion-button [ngStyle]="{'color':'tertiary'}" href="https://www.linkedin.com/in/diego-aguilera-martin-devagui/">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </ion-button>
+        <ion-button [ngStyle]="{'color':'tertiary'}" href="https://github.com/DevAgui"> 
+          <ion-icon name="logo-github"></ion-icon>
+        </ion-button>
+      </ion-card-content>
+    </ion-card>
+  </ion-accordion>
+</ion-accordion-group>
