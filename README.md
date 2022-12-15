@@ -71,3 +71,9 @@ Cabe destacar que la aplicación está completamente traducida al inglés, pudie
 *Inglés:*
 
 ![image](https://user-images.githubusercontent.com/91873599/207965747-a2e311eb-2c69-4c7f-9d38-f006242008aa.png)
+
+# Enlace al vídeo de la presentación de la App
+
+https://youtu.be/Xm08NMBLO8M
+
+Si te ha gustado la app, ⭐¡dale una estrellita al repositorio!⭐
