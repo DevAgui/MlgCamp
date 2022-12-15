@@ -7,6 +7,9 @@ import * as moment from 'moment';
   providedIn: 'root'
 })
 export class AssignmentsService {
+  filter(arg0: (d: any) => boolean) {
+    throw new Error('Method not implemented.');
+  }
 
   private _assignment:Assignment[] = [
     {
@@ -34,13 +37,16 @@ export class AssignmentsService {
 
   }
 
+  getAssigmentsByThisDate(){
+    return this._assignment.find(d=>d.dateTime);
+  }
   getAssignments(){
     
     return this._assignment;
   }
 
   getAssignmentById(id:number){
-    return this._assignment.find(a=>a.id==id);
+    return this._assignment.find(a=>a.id==id).dateTime;
   }
 
   getAssignmentsByActivityId(activityId:number):Assignment[]{

@@ -3,6 +3,7 @@ import { AlertController, ModalController } from '@ionic/angular';
 import { GroupService } from 'src/app/core/services/group.service';
 import { ChildrenGroup } from 'src/app/core/models/children-group.model';
 import { GroupDetailComponent } from 'src/app/core/components/group-detail/group-detail.component';
+import { group } from 'console';
 
 @Component({
   selector: 'app-show-group',
@@ -11,6 +12,7 @@ import { GroupDetailComponent } from 'src/app/core/components/group-detail/group
 })
 export class ShowGroupComponent implements OnInit {
 
+  searchedGroup: any;
   constructor(
     private groupSvc:GroupService,
     private modal:ModalController,

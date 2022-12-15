@@ -4,6 +4,7 @@ import { ActivitiesDetailComponent } from 'src/app/core/components/activities-de
 import { ActivitiesComponent } from 'src/app/core/components/activities/activities.component';
 import { Activities } from 'src/app/core/models/activities.model';
 import { ActivitiesService } from 'src/app/core/services/activity.service';
+import { threadId } from 'worker_threads';
 
 @Component({
   selector: 'app-show-activities',
@@ -11,11 +12,17 @@ import { ActivitiesService } from 'src/app/core/services/activity.service';
   styleUrls: ['./show-activities.component.scss'],
 })
 export class ShowActivitiesComponent implements OnInit {
+
+  activities:any[];
+  searchedActivities:any;
+
   constructor(
     private activitiesSvc:ActivitiesService,
+
     private modal:ModalController,
     private alert:AlertController
   ) { }
+
 
   ngOnInit() {}
 
@@ -83,6 +90,6 @@ export class ShowActivitiesComponent implements OnInit {
     }
     onDeleteActivity(activities){
       this.onDeleteAlert(activities);
+    } 
   }
 
-}

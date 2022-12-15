@@ -2,6 +2,8 @@
   <ion-button color="tertiary" (click)="onNewActivity()" style="margin:10px;width:50px;height:50px;--border-radius:50%" slot="start" icon-only><ion-icon style="zoom:3" name="add-outline"></ion-icon></ion-button>
   <ion-text>{{'activities.add' | translate}}</ion-text>
 </ion-item>
+<ion-toolbar>
+</ion-toolbar>
 <ion-list>
-  <app-activities *ngFor="let a of (getActivity() | async)" [activities]="a" (onEdit)="onEditActivity($event)" (onDelete)="onDeleteAlert($event)"></app-activities>
+  <app-activities *ngFor="let searchActivites of (getActivity() | async)" [activities]="searchActivites" (onEdit)="onEditActivity($event)" (onDelete)="onDeleteAlert($event)"></app-activities>
 </ion-list>

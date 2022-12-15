@@ -49,6 +49,9 @@ export class ActivitiesService{
     
      public getActivityById(id:number){
         return this._activities.find(a=>a.id==id);
+     }
+      public getName(n:string){
+        return this._activities.find(a=>a.name==n);
       }
 
       public getLat(id:number){
