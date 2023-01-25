@@ -20,10 +20,6 @@ import { GroupToAssignComponent } from './components/group-to-assign/group-to-as
 import { InstructorToAssignComponent } from './components/instructor-to-assign/instructor-to-assign.component';
 import { ActivityToAssignComponent } from './components/activity-to-assign/activity-to-assign.component';
 
-
-
-
-
 @NgModule({
   declarations: [
     GroupComponent,

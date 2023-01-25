@@ -1,7 +1,8 @@
 {
   "name": "MlgCamp",
   "integrations": {
-    "capacitor": {}
+    "capacitor": {},
+    "cordova": {}
   },
   "type": "angular"
 }
