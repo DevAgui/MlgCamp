@@ -31,6 +31,7 @@
     "@ngx-translate/core": "^14.0.0",
     "@ngx-translate/http-loader": "^7.0.0",
     "angular-moment": "^1.3.0",
+    "firebase": "^9.18.0",
     "ionicons": "^6.0.3",
     "moment": "^2.29.4",
     "rxjs": "~7.5.0",
